@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Rotater",
+  "version": "1.0.0",
+  "description": "Rotate thee Screen and change the Background color",
+  "icons": {
+    "128": "icon128.png",
+    "64": "icon64.png",
+    "32": "icon32.png"
+  },
+  "action": {
+    "default_icon": "images/icon128.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "scripting",
+    "tabs",
+    "activeTab"
+  ]
+}
